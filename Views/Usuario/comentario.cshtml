@@ -1,0 +1,51 @@
+@{ Layout = "MasterPageDeslogado";}
+
+@section styles {
+    <link rel="stylesheet" href="/css/comentario.css">
+}
+
+<html>
+
+ <section class="comentario">
+        <h2>Comentários</h2>
+
+        <form action="/Usuario/Comentario" method="POST">
+
+            <div class="comenta">
+
+                <img src="/img/comentario.jpg" alt="comenta">
+            <label class="eita">
+                <input class="botao" type="text" name="comentario">
+                <h1>Um Ótimo Software!!</h1>
+                <h2>Recomendo para todas as empresas.</h2>
+            </label>
+            <br>
+             </div>
+            
+            <div class="icone">
+                <form action="/Usuario/Comentario" method="POST">
+
+                <img src="/img/icone1.png" alt="comento">
+            <label class="come">
+                <input class="coment" type="text" name="texto" placeholder="Realize seu comentário">
+            </label>
+            <br>
+            </div>
+
+            <button type="submit" name="CadastrarComentario"class="btn-enviar">ENVIAR</button>
+                </form>
+    </section>
+
+     <section class="fim">
+        <h3>RUA BARÃO DE LIMEIRA
+            Nº 444</h4>
+        
+        <div class="mapa">
+            <img src="/img/map.png" alt="mapa">
+        </div>
+        <div class="face">
+            <img src="/img/face.png" alt="face">
+        </div>
+    </section>
+
+</html>

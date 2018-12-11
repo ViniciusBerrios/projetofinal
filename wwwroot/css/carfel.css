@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.topo{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.tele{
+    margin-left: 70px;
+    display: flex;
+}
+
+.tele h2{
+    margin-top: 25px;
+    text-shadow: black 0 0 4px;
+    color: white;
+}
+.tele img{
+    height: 70px;
+    width: 70px;
+}
+
+.email{
+    margin-left: 60px;
+    display: flex;
+}
+
+.email h3{
+    margin-top: 25px;
+    font-size: 1.5em;
+    text-shadow: black 0 0 4px;
+    color: white;
+}
+.email img{
+    height: 70px;
+    width: 70px;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1db9dd;
+    font-size: 2.7em;
+    margin-left: 130px;
+}
+
+.quadrado{
+    height: 70px;
+    width: 100%;
+    background-color: #1b1464;
+    margin-top: 30px;
+}
+.quadrado ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 50px;
+    color: white;
+} 
+.quadrado li {
+    margin: 0 80px 0 80px;
+    margin-top: 10px;
+    font-size: 3em;
+}
+
+.video{
+    margin: 70px;
+}
+.video img{
+    height: 500px;
+    width: 700px;
+}
+
+.play{
+    margin-top: -420px;
+    margin-left: 320px;
+}
+.play img{
+    height: 200px;
+    width: 200px;
+}
+
+.funciona{
+    margin-left: 850px;
+    margin-top: -350px;
+    color: #2e3192;
+    font-size: 3em;
+}
+
+.funciona h5{
+    font-size: 1.2em;
+}
+
+.quadrado2{
+    background-color: #1b1464;
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.planos h6{
+    color: #2e3192;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mao {
+    background-image: url("/img/mao.jpg");
+    background-position: center;
+    height: 380px;
+    width: 480px;
+}
+
+.oculos{
+    background-image: url("/img/oculos.jpeg");
+    background-position:center;
+    height: 380px;
+    width: 480px;
+    margin-left: 200px;
+}
+
+.homem {
+    background-image: url("/img/homem.jpg");
+    background-position: center;
+    height: 380px;
+    width: 480px;
+    margin-left: 500px;
+}
+
+.slk{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.clique{
+    margin-left: 500px;
+    margin-top: -200px;
+}
+.click1 img{
+    height: 50px;
+    width: 100px;
+    margin-left: 360px;
+    margin-top: 135px;
+}
+
+.click2 img{
+    height: 50px;
+    width: 100px;
+    margin-left: 40px;
+    transform: translateY(-477px);
+}
+
+.click3 img{
+    height: 50px;
+    width: 100px;
+    margin-left: 725px;
+    transform: translateY(-530px);
+}
+
+.mao ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.mao li{
+    margin-top: 50px;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+.oculos ul{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.oculos li{
+    margin-top: 50px;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+.homem ul{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.homem li{
+    margin-top: 50px;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+.quadrado3{
+    background-color: #1b1464;
+    height: 50px;
+    width: 100%;
+    margin-top: -10px;
+}
+.utiliza h7{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2e3192;
+    font-size: 3.8em;
+    margin-left: 200px;
+    display: block;
+    margin-top: 50px;
+}
+
+.utilizacao{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.honda img{
+    height: 250px;
+    width: 350px;
+    display: block;
+}
+
+.contabilidade img{
+    height: 250px;
+    width: 350px;
+    margin-top: 150px;
+    display: block;
+}
+
+.gol img{
+    height: 250px;
+    width: 350px;
+    margin-left: 500px;
+    display: block;
+    margin-top: -450px;
+}
+
+.starbucks img{
+    height: 250px;
+    width: 350px;
+    margin-left: 1000px;
+    display: block;
+    margin-top: -450px;
+}
+
+.amazon img{
+    height: 230px;
+    width: 350px;
+    margin-left: 1000px;
+    display: block;
+    margin-top: 200px;
+}
+
+.fim{
+    background-color: #0071bc;
+    width: 100%;
+    height: 550px;
+}
+
+.mapa img{
+    height:350px;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: -390px;
+    display: block;
+}
+
+.fim h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-top: 440px;
+    display: block;
+    margin-left: 100px;
+}
+
+.face img{
+    height: 360px;
+    width: 450px;
+    margin-left: 850px;
+    margin-top: -350px;
+    display: block;
+}
+
+.flex-container{
+    display: flex;
+}
+
+@media screen and (max-width:910px) {
+    .logo img{
+        height: 75px;
+        width: 75px;
+    }
+    .titulo{
+        font-size: 1.6em;
+        margin-left: 10px;
+    } 
+ 
+ .tele{
+     margin-left: 30px;
+ }
+ 
+ .tele img{
+     height: 50px;
+     width: 50px;
+ }
+ 
+ .tele h2{
+     font-size: 1.3em;
+ }
+ 
+ .email img{
+     height: 50px;
+     width: 50px;
+ }
+ 
+ .email h3{
+     font-size: 1.3em;
+ }
+ 
+ .quadrado{
+     height: 50px;
+     width: 100%;
+ }
+ 
+ .quadrado li{
+     font-size: 1.6em;
+     margin: 0 90px 0 90px;
+     margin-top: 10px;
+ }
+
+.video img{
+    height: 300px;
+    width: 350px;
+}
+
+.play img{
+    height: 115px;
+    width: 120px;
+    margin-left: -130px;
+    margin-top: 130px;
+}
+
+.funciona h5{
+    font-size: 0.7em;
+    margin-left: -400px;
+    margin-top: 150px;
+}
+
+.funciona p{
+    font-size: .6em;
+    margin-left: -400px;
+    margin-top: 20px;
+}
+
+.quadrado2{
+    width: 100%;
+    height: 50px;
+}
+
+.mao li{
+    font-size: .8em;
+    margin-top: 20px;
+}
+
+.oculos li{
+    font-size: .8em;
+}
+
+.homem li{
+    font-size: .8em;
+}
+
+.mao {
+    background-image: url("/img/mao.jpg");
+    background-position: center;
+    height: 300px;
+    width: 350px;
+    margin-left: -150px;
+}
+
+.oculos{
+    background-image: url("/img/oculos.jpeg");
+    background-position:center;
+    height: 300px;
+    width: 350px;
+    margin-left: 50px;
+}
+
+.homem {
+    background-image: url("/img/homem.jpg");
+    background-position: center;
+    height: 300px;
+    width: 340px;
+    margin-left: 250px;
+}
+
+.click1 img{
+    margin-left: -20px;
+}
+
+.click2 img{
+    margin-left: -250px;
+    margin-top: 80px;
+}
+
+.click3 img{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.utiliza h7{
+    font-size: 2.3em;
+    margin-left: 100px;
+}
+
+.honda img{
+    height: 150px;
+    width: 250px;
+}
+
+.contabilidade img{
+    height: 200px;
+    width: 250px;
+}
+
+.gol img{
+    height: 200px;
+    width: 250px;
+    margin-left: 250px;
+    margin-top: -350px;
+}
+
+.starbucks img{
+    height: 180px;
+    width: 240px;
+    margin-left: 500px;
+    margin-top: -350px;
+}
+
+.amazon img{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+.fim{
+    width: 100%;
+    height: 520px;
+}
+
+.mapa img{
+    height: 300px;
+    width: 350px;
+    margin-top: -400px;
+}
+
+.face img{
+    height: 300px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: -300px;
+}
+
+.fim h8{
+    font-size: 1.7em;
+    transform: translateY(-50px);
+}
+}

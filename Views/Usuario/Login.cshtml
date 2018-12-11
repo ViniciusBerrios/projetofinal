@@ -1,0 +1,48 @@
+@{
+    Layout = "MasterPageDeslogado";
+}
+
+@section styles {
+    <link rel="stylesheet" href="/css/Login.css">
+}
+
+<html>
+
+    <section class="Login">
+        <h1>Login</h1>
+
+        <form action="/Usuario/Login" method="POST">
+           
+           <label class="eita">
+               E-mail
+               <input  class="botao" type="email" name="email"  placeholder="Insira seu Email"
+               required maxlength="80">
+           </label>
+           <br>
+
+           <label class="eita">
+               Senha
+               <input  class="botao" type="password" name="senha"  placeholder="Insira sua Senha"
+               required maxlength="50">
+           </label>
+           <br>
+
+           <button class="entrar">Entrar</button>
+           
+
+           </form>
+    </section>
+
+     <section class="fim">
+        <h3>RUA BARÃO DE LIMEIRA
+            Nº 444</h4>
+        
+        <div class="mapa">
+            <img src="/img/map.png" alt="mapa">
+        </div>
+        <div class="face">
+            <img src="/img/face.png" alt="face">
+        </div>
+    </section>
+
+</html>

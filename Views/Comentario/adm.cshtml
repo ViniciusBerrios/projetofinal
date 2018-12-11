@@ -1,0 +1,50 @@
+@{ Layout = "MasterPageDeslogado";}
+
+@section styles {
+    <link rel="stylesheet" href="/css/adm.css">
+}
+
+<html>
+
+
+    <section class="adm">
+        <h2>Administrador</h2>
+        <center>
+
+        @foreach (var item in ViewBag.lista)
+        {
+            <tr>
+                <td>
+                    <br><br><br><br>
+                    @item.Nome
+                </td>
+                <td>
+                    @item.DataCriacao
+                    <br>
+                </td>
+                <td>
+                    @item.Texto
+                </td>
+            </tr>
+            @if (item.Status == false)
+            {
+            <a href="/Comentario/Aprova?id=@item.ID">Aprova</a>   
+            <a href="/Comentario/Rejeita?id=@item.ID">Rejeita</a>
+            }
+        }
+        </center>
+    </section>
+
+    <section class="fim">
+        <h3>RUA BARÃO DE LIMEIRA
+            Nº 444</h4>
+        
+        <div class="mapa">
+            <img src="/img/map.png" alt="mapa">
+        </div>
+        <div class="face">
+            <img src="/img/face.png" alt="face">
+        </div>
+    </section>
+
+</html>

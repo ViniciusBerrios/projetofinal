@@ -1,0 +1,42 @@
+@{ Layout = "MasterPageDeslogado";}
+
+@section styles {
+    <link rel="stylesheet" href="/css/cadastra.css">
+}
+
+<html>
+
+    <section class="cadastrar">
+        <h2>Cadastrar</h2>
+
+        <form action="/Usuario/Cadastra" method="POST">
+            <label class="eita">Nome: </label>
+                <input  class="botao" type="text" name="nome" placeholder="Insira seu Nome">
+            <br/>
+
+            <label class="eita">E-mail:
+                <input class="botao" type="email" name="email" placeholder="Insira seu E-mail">
+            </label>
+            <br>
+
+            <label class="eita">Senha:
+                <input class="botao" type="password" name="senha" placeholder="Informe sua Senha">
+            </label>
+            <br>
+
+            <button class="btn-enviar">ENVIAR</button>
+    </section>
+
+     <section class="fim">
+        <h3>RUA BARÃO DE LIMEIRA
+            Nº 444</h4>
+        
+        <div class="mapa">
+            <img src="/img/map.png" alt="mapa">
+        </div>
+        <div class="face">
+            <img src="/img/face.png" alt="face">
+        </div>
+    </section>
+
+</html>
